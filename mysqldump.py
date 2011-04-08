@@ -117,8 +117,8 @@ def compress_file(uncompressed_file):
 def send_alert(bodys):
 	try:
 		import smtplib
-		fromaddr = 'root@hobbes.admeld.com'
-		toaddr = 'techops@admeld.com'
+		fromaddr = ''
+		toaddr = ''
 		msg = ("From: %s\r\nTo: %s\r\nSubject: %s\r\n" % (fromaddr, toaddr, subject))
 		msg = msg + bodys
 		server = smtplib.SMTP('localhost')
