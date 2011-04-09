@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# Author(s): Clyde Lingenfelter <klydel@gmail.com>
 import MySQLdb
 import base64
 import os, sys
